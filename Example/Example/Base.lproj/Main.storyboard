@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13178.6" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SiriRemote" translatesAutoresizingMaskIntoConstraints="NO" id="vDb-dB-d9l">
+                                <rect key="frame" x="850" y="338" width="220" height="637"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vDb-dB-d9l" secondAttribute="height" multiplier="21:61" id="j2n-yD-0FO"/>
+                                    <constraint firstAttribute="width" constant="220" id="wrw-yX-jEd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YSu-4g-y21">
+                                <rect key="frame" x="885" y="378" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="YLx-w9-KX9"/>
+                                    <constraint firstAttribute="height" constant="150" id="tRF-DM-1rZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir8-xR-eM4">
+                                <rect key="frame" x="960" y="68" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ir8-xR-eM4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AaZ-c8-Bg5"/>
+                            <constraint firstItem="vDb-dB-d9l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KEA-ga-aYV"/>
+                            <constraint firstItem="YSu-4g-y21" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Py2-7u-7kQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vDb-dB-d9l" secondAttribute="bottom" constant="45" id="eF1-aD-cAY"/>
+                            <constraint firstItem="YSu-4g-y21" firstAttribute="top" secondItem="vDb-dB-d9l" secondAttribute="top" constant="40" id="r25-mX-hw4"/>
+                            <constraint firstItem="ir8-xR-eM4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="toV-4m-szb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gestureImage" destination="YSu-4g-y21" id="EoZ-ND-brY"/>
+                        <outlet property="predictionLabel" destination="ir8-xR-eM4" id="i3L-cV-mKX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SiriRemote" width="378" height="1098"/>
+    </resources>
+</document>
