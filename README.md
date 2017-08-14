@@ -5,7 +5,7 @@ TvOSScribble, based on CoreML, mitigates the lack of a physical numpad area in S
 
 ![](Preview.gif)
 
-https://vimeo.com/229491553
+https://vimeo.com/229529023
 
 ## Requirements
 
