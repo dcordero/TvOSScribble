@@ -24,7 +24,7 @@ platform :tvos, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'TvOSScribble', :git => 'https://github.com/dcordero/TvOSScribble.git'
+    pod 'TvOSScribble', '~> 0.0.1'
 end
 ```
 
