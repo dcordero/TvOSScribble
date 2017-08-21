@@ -5,7 +5,8 @@ TvOSScribble, based on CoreML, mitigates the lack of a physical numpad area in S
 
 ![](Preview.gif)
 
-https://vimeo.com/229529023
+- Video: https://vimeo.com/229529023
+- Post: [Building Scribble for tvOS](https://medium.com/@dcordero/tvosscribble-building-scribble-for-tvos-6f846db7f16d)
 
 ## Requirements
 
@@ -63,7 +64,7 @@ We would love for you to contribute to **TvOSScribble**, check the ``LICENSE`` f
 
 ## Meta
 
-Special thanks [@r4ghu](https://github.com/r4ghu) for his fantastic article on [COMPUTER VISION IN IOS – COREML+KERAS+MNIST](https://sriraghu.com/2017/07/06/computer-vision-in-ios-coremlkerasmnist/).
+Special thanks to [@r4ghu](https://github.com/r4ghu) for his fantastic article on [COMPUTER VISION IN IOS – COREML+KERAS+MNIST](https://sriraghu.com/2017/07/06/computer-vision-in-ios-coremlkerasmnist/).
 
 David Cordero – [@dcordero](https://twitter.com/dcordero)
 
