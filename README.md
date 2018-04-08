@@ -15,7 +15,7 @@ TvOSScribble, based on CoreML, mitigates the lack of a physical numpad area in S
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 
 To integrate TvOSScribble into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
